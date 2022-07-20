@@ -1,0 +1,62 @@
+/* google font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: rgb(0, 49, 57);
+
+    display: flex;
+}
+.b-text{
+    margin-left: 106px;
+    margin-top: 60px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start; */
+    /* padding: 16px 25px;
+    gap: 10px; */
+}
+.b-head{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 70px;
+}
+.b-para{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.b-btn{
+    color: black;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 520;
+    /* text-shadow: 4px 4px 10px black; */
+    background-color: rgba(255, 242, 0, 0.905);
+    border-radius: 10px;
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    /* left: 246px;
+    top: 529px; */
+}
+.b-btn:hover{
+    color:white;
+    background-color: red;
+}
+
+.b-img{
+    /* position: absolute; */
+    width: 581px;
+    height: 613px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
