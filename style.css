@@ -1,3 +1,4 @@
+/* 1st part- stylesheet area for Website View  */
 *{
     padding: 0;
     margin: 0;
@@ -7,10 +8,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 .head-container{
-    border: 1px solid limegreen;
     height: 100vh;
 }
+
+.main-container{
+    height: 160vh;
+}
+
 .banner{
     position: absolute;
     width: 1321px;
@@ -19,18 +25,25 @@ body{
     margin-left: 100px;
     border-radius: 30px;
     background-color: rgb(0, 49, 57);
+}
 
+.d-flex{
     display: flex;
 }
+
+.d-grid{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
 .b-text{
     margin-left: 106px;
     margin-top: 111px;
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start; */
-    /* padding: 16px 25px;
-    gap: 10px; */
 }
+
 .b-head{
     color: white;
     font-size: 70px;
@@ -49,8 +62,6 @@ body{
     color: rgb(0, 49, 57);
     border-style: none;
     font-size: 20px;
-    /* font-weight: 540; */
-    /* text-shadow: 4px 4px 10px black; */
     background-color: rgba(255, 242, 0, 0.905);
     border-radius: 10px;
     position: absolute;
@@ -63,7 +74,6 @@ body{
 }
 
 .b-img{
-    /* position: absolute; */
     width: 581px;
     height: 613px;
     margin-top: 32px;
@@ -71,8 +81,7 @@ body{
 }
 
 /* second section starts from here  */
-.nav-container{
-    /* border: 2px solid black; */
+aside {
     background-color: rgb(0, 49, 57);
     border-radius: 10px;
     margin-left: 100px;
@@ -80,11 +89,122 @@ body{
     height: 312px;
     width: 312px;
 }
-.nav-btn{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* margin-bottom: 5px; */
-    height: 84px;
+
+aside nav {
+    list-style: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+aside nav li {
+    text-align: center;
+    justify-items: center;
+    background-color: white;
+    height: 40px;
     width: 252px;
+    margin: 25px 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: rgba(255, 242, 0, 0.905);
+}
+
+.center-text:hover {
+    background-color: rgba(255, 242, 0, 0.905);
+}
+
+.center-text{
+    padding-top: 20px;
+}
+
+aside nav li a {
+    text-decoration: none;
+    color: rgb(0, 49, 57);
+    font-weight: 700;
+}
+
+.box{
+    box-sizing: border-box;
+    width: 312px;
+    height: 362px;
+    left: 476px;
+    top: 812px;
+    overflow: hidden;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+.box-text{
+    padding: 10px 10px 0 10px;
+}
+.a-border{
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #161616;
+
+    border: 2px solid #979797;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+}
+.box-title{
+    padding-top: 35px;
+}
+.box-bottom{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 150px;
+    justify-content: space-between;
+}
+.left-pad{
+    padding-left: 12px;
+}
+div li i {
+    color: yellow;
+    font-size: 200%;
+    padding-right: 10px;
+}
+div li a {
+    color: white;
+    text-decoration: none;
+}
+div li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+.view{
+    visibility: hidden;
+}
+
+/* Footer Section  */
+.footer-container{
+    height: 540px;
+    background-color: #161616;
+}
+.footer-title{
+color: white;
+text-align: center;
+font-size: 40px;
+font-weight: 600;
+padding-top: 130px;
+}
+hr{
+width: 80%;
+margin:auto;
+}
+.footer-list{
+display: flex;
+justify-content: space-evenly;
+padding: 50px 300px;
+list-style: none;
+color: white;
+}
+
+/* 2nd part- stylesheet area for Tablet View  */
+@  {
+    
 }
