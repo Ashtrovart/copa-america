@@ -15,11 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <section class="head-container">
+    <!-- <section> -->
+        <header class="head-container">
             <!-- .banner>div>h1.b-head+p.b-para+button.b-btn^div>img.b-img -->
             <div class="banner d-flex">
-                <!-- Text area of banner  -->
+                <!-- ---------------------
+                    Text area of banner= (b for banner here) 
+                    (d-flex means "display flex")
+                    ------------------>
                 <div class="b-text">
                     <h1 class="b-head">South American Football Championship</h1>
                     <p class="b-para">The tournament was previously known as Campeonato Sudamericano de Futbol (South American Championship of Football). South American Championship of Nations was the official English language name.</p>
@@ -28,8 +31,11 @@
                 <!-- image area of banner -->
                 <div><img src="assets/Banner Image.png" alt="Banner Image" class="b-img"></div>
             </div>
-        </section>
+        </header>
 
+        <!----------------------------
+             2nd page starts from here (Aside bar + Main body)
+            ------------- ------------ -->
          <section class="main-container d-grid">
                 <!-- aside>nav>ul>li*3>a -->
                 <aside>
@@ -231,21 +237,22 @@
                     </div>
                 </div>
             </main>
-            
-        </div>
-        </section>
-    </section>
+            </div>
+         </section>
+    <!-- </section> -->
 
     <!-- View all button only for Tablet -->
     <div class="view">
         <a href="#">View All</a>
     </div>
-    
+    <!-----------------------------------------------
+         3rd page or Footer section starts from here 
+        -------------------------------------------- -->
     <footer class="footer-container">
         <div class="footer-title">
             <h1>Goal</h1>
         </div>
-        <hr>
+        <hr> 
         <div class="footer-list">
             <li>Contact us</li>
             <li>Terms of Service</li>
@@ -260,5 +267,6 @@
             <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
         </div>
     </footer>
+    <!-- </section> -->
 </body>
 </html>
